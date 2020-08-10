@@ -1,0 +1,19 @@
+{
+  "params": {
+    "local_server" : "True",
+    "local_uri" :  "mysql://root:@localhost/codingthunder",
+    "prod_uri" : "mysql://root:@localhost/codingthunder",
+    "fb_uri" : "https://facebook.com/codingthunder",
+    "tw_uri" : "https:/twitter.com/codingthunder",
+    "gh_uri" : "https:/github.com/codingthunder",
+    "gmail-user" : "sudarshangosavi17@gmail.com",
+    "gmail_password" : "9860684983",
+    "about_text": "Hi, My name is Sudarshan, I am a very good programmer.",
+    "no_of_posts" : 2,
+    "blog_name": "Coding Thunder",
+    "login_image":"login.svg",
+    "admin_user" : "destroyer",
+    "admin_password" : "sudarshan",
+    "upload_location" : "E:\\programming\\Python\\Flask"
+  }
+}
