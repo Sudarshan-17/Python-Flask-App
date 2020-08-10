@@ -27,7 +27,7 @@
         
 <h1>Add/Edit Posts</h1>
 
-      <form name="sentMessage" id="contactForm" action="/edit/{{post.s_no}}" method="POST" novalidate>
+      <form name="sentMessage" id="contactForm" action="/edit/{{s_no}}" method="POST" novalidate>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>Title</label>
@@ -59,7 +59,7 @@
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
               <label>ImageFile</label>
-              <input type="text" class="form-control" placeholder="Slug" name="slug" id="slug" required data-validation-required-message="Please enter your phone number." value="{{post.img_file}}">
+              <input type="text" class="form-control" placeholder="image" name="img_file" id="img_file" required data-validation-required-message="Please enter your phone number." value="{{post.img_file}}">
               <p class="help-block text-danger"></p>
             </div>
           </div>
